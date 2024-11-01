@@ -1,3 +1,0 @@
-([('Banana.io',
-   '/Users/bobbyliao/PycharmProjects/Banana.io/dist/Banana.io',
-   'EXECUTABLE')],)

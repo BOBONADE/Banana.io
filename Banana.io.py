@@ -46,18 +46,18 @@ class ScrollableShop:
     def populate_upgrades(self):
         # Upgrade configuration: initial cost, rate, image path, and owned count
         self.upgrade_shop = {
-            1: {"cost": 15, "rate": 1, "image": "./imgs/pig.png", "owned": 0},
-            2: {"cost": 100, "rate": 7, "image": "./imgs/dog.png", "owned": 0},
-            3: {"cost": 1100, "rate": 19, "image": "./imgs/chicken.png", "owned": 0},
-            4: {"cost": 12000, "rate": 69, "image": "./imgs/monkey.png", "owned": 0},
-            5: {"cost": 130000, "rate": 260, "image": "./imgs/goat.png", "owned": 0},
-            6: {"cost": 1400000, "rate": 1400, "image": "./imgs/horse.png", "owned": 0},
-            7: {"cost": 20000000, "rate": 7800, "image": "./imgs/snake.png", "owned": 0},
-            8: {"cost": 330000000, "rate": 44000, "image": "./imgs/dragon.png", "owned": 0},
-            9: {"cost": 5100000000, "rate": 260000, "image": "./imgs/rabbit.png", "owned": 0},
-            10: {"cost": 75000000000, "rate": 1600000, "image": "./imgs/tiger.png", "owned": 0},
-            11: {"cost": 1000000000000, "rate": 10000000, "image": "./imgs/cow.png", "owned": 0},
-            12: {"cost": 14000000000000, "rate": 65000000, "image": "./imgs/mouse.png", "owned": 0},
+            1: {"cost": 15, "rate": 1, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/pig.png", "owned": 0},
+            2: {"cost": 100, "rate": 7, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/dog.png", "owned": 0},
+            3: {"cost": 1100, "rate": 19, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/chicken.png", "owned": 0},
+            4: {"cost": 12000, "rate": 69, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/monkey.png", "owned": 0},
+            5: {"cost": 130000, "rate": 260, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/goat.png", "owned": 0},
+            6: {"cost": 1400000, "rate": 1400, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/horse.png", "owned": 0},
+            7: {"cost": 20000000, "rate": 7800, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/snake.png", "owned": 0},
+            8: {"cost": 330000000, "rate": 44000, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/dragon.png", "owned": 0},
+            9: {"cost": 5100000000, "rate": 260000, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/rabbit.png", "owned": 0},
+            10: {"cost": 75000000000, "rate": 1600000, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/tiger.png", "owned": 0},
+            11: {"cost": 1000000000000, "rate": 10000000, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/cow.png", "owned": 0},
+            12: {"cost": 14000000000000, "rate": 65000000, "image": "/Users/bobbyliao/PycharmProjects/Banana.io/imgs/mouse.png", "owned": 0},
         }
 
         # Populate buttons for each upgrade
@@ -134,7 +134,7 @@ class BananaGame:
         self.upgrade_rate_increase = 1.05
 
         # Load and resize the banana image (ensure it has a transparent background)
-        self.banana_image = ImageTk.PhotoImage(file="./imgs/banana-png-27764.png")
+        self.banana_image = ImageTk.PhotoImage(file="/Users/bobbyliao/PycharmProjects/Banana.io/imgs/banana-png-27764.png")
 
         # Setup the game UI
         self.create_widgets()

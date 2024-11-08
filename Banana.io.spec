@@ -5,7 +5,7 @@ a = Analysis(
     ['Banana.io.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('imgs', 'imgs')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,11 +35,11 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['/Users/bobbyliao/PycharmProjects/banana.io/imgs/Banana_PNG_Clipart.icns'],
+    icon=['/Users/bobbyliao/PycharmProjects/Banana.io/imgs/banana.icns'],
 )
 app = BUNDLE(
     exe,
     name='Banana.io.app',
-    icon='/Users/bobbyliao/PycharmProjects/banana.io/imgs/Banana_PNG_Clipart.icns',
+    icon='/Users/bobbyliao/PycharmProjects/Banana.io/imgs/banana.icns',
     bundle_identifier=None,
 )
